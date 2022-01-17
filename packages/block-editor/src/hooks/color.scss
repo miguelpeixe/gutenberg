@@ -16,7 +16,7 @@
 
 	/* Increased specificity required to remove the slot wrapper's row gap */
 	&#{&} {
-		.color-block-support-panel__item-group {
+		.color-block-support-panel__inner-wrapper {
 			row-gap: 0;
 		}
 	}

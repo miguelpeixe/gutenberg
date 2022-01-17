@@ -10,7 +10,6 @@ import {
 } from '@wordpress/blocks';
 import {
 	PanelBody,
-	__experimentalItemGroup as ItemGroup,
 	__experimentalUseSlot as useSlot,
 } from '@wordpress/components';
 import { useSelect } from '@wordpress/data';
@@ -147,8 +146,7 @@ const BlockInspectorSingleBlock = ( {
 			<InspectorControls.Slot
 				__experimentalGroup="color"
 				label={ __( 'Color' ) }
-				as={ ItemGroup }
-				className="color-block-support-panel__item-group"
+				className="color-block-support-panel__inner-wrapper"
 			/>
 			<InspectorControls.Slot
 				__experimentalGroup="typography"

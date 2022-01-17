@@ -12,7 +12,6 @@ import {
 	Dropdown,
 	FlexItem,
 	__experimentalHStack as HStack,
-	__experimentalItem as Item,
 	__experimentalToolsPanelItem as ToolsPanelItem,
 } from '@wordpress/components';
 
@@ -43,7 +42,6 @@ export default function ToolsPanelColorDropdown( { settings, ...otherProps } ) {
 			isShownByDefault={ settings.isShownByDefault }
 			resetAllFilter={ settings.resetAllFilter }
 			{ ...otherProps }
-			as={ Item }
 			className="block-editor-tools-panel-color-gradient-settings__item"
 		>
 			<Dropdown
